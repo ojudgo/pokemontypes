@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+  padding: 10px;
+  margin: 0 auto;
+  scroll-behavior: smooth
+}
+
+html, body {padding: 0}
+
+body {height: 100vh;
+margin: 0}
+
+main {margin-left: 150px;
+padding: 0}
+
+section {border-bottom: solid grey 2px}
+
+nav {
+border-right: solid grey;
+float: left;
+max-width: 150px;
+height: 100vh;
+padding: 0;
+position: fixed;
+overflow: scroll;
+background-color: #eeeeee}
+
+nav::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 300px) {
+  #navbar {float: none;
+  position: static;
+  display: inline;}
+  
+  #main-doc {margin-left: 0;
+padding: 0}
+}
+
+h1 {margin: 0;
+font-size: 1em;
+text-align: center;
+border: solid black 5px;
+height: 70px;
+padding-top: 18px;
+border-radius: 80px 80px 0 0;
+background-color: red;
+color: cyan;
+max-width: 125px
+}
+
+h2 {margin: 0;
+font-size: 0.73em;
+text-align: center;
+border-top: 0;
+border-left: solid black 5px;
+border-right: solid black 5px;
+border-bottom: solid black 5px;
+padding-top: 0px;
+height: 60px;
+border-radius: 0px 0px 80px 80px;
+background-color: white;
+max-width: 125px}
+
+nav li {width: 125px;
+}
+
+li {width: 100px;
+display: inline-block}
+
+ul a {text-decoration: none;
+color: inherit}
+
+section a {padding-left: 0;
+padding-right: 0}
+
+main li {margin-bottom: 3px;
+text-align: center}
+
+main header {font-weight: bold}
+
+section:nth-child(even) {background-color: #efefef}
+
+.bug {background-color: purple;
+color: white}
+
+.dark {background-color: black;
+color: white}
+
+.dragon {background-color: indigo;
+color: white}
+
+.electric {background-color: yellow;
+}
+
+.fairy {background-color: violet;
+color: white}
+
+.fighting {background-color: gold;}
+
+.fire {background-color: red;
+color: white}
+
+.flying {background-color: 
+#0077ff;
+color: white}
+
+.ghost {background-color: grey;
+color: white}
+
+.grass {background-color: green;
+color: white}
+
+.ground {background-color: #996600;
+color: white}
+
+.ice {background-color: cyan;
+border: 1px solid red}
+
+.normal {background-color: magenta;
+color: white}
+
+.poison {background-color: chartreuse}
+
+.psychic {background-color: orange;color: white}
+
+.rock {background-color: brown;color: white}
+
+.steel {background-color: silver;color: black}
+
+.water {background-color: blue;
+color: white}
